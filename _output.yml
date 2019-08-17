@@ -1,0 +1,27 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">A simple template for projects</a></li>
+      after: |
+        <li><a href="https://github.com/davan690/krisProjects" target="blank">Published with bookdown</a></li>
+    edit: https://github.com/davan690/week1-coding-kris/docs/%s
+    download: ["pdf", "epub", "mobi", "docx"]
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+bookdown::epub_book: default
+rmarkdown::html_document: default
+tufte::tufte_html: default
+tufte::tufte_handout:
+  citation_package: natbib
+  latex_engine: xelatex
+tufte::tufte_book:
+  citation_package: natbib
+  latex_engine: xelatex
+  bibliography: skeleton.bib
+link-citations: yes

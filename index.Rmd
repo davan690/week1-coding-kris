@@ -1,0 +1,44 @@
+--- 
+title: "The effect of ticks on running speed of lizards"
+subtitle: "An implementation in R Markdown"
+author: "Kris Wilde and Anthony Davidson"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+---
+
+# Before session
+
+Have a go at loading and running the files (`.rmd`) here. To begin with you will need the following packages:
+
+```{r setup-week1, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, fig.width = 7,
+	fig.height = 3.5,
+	comment = "#>")
+```
+
+```{r message=FALSE, warning=FALSE}
+# install.packages("car")
+# car
+# compute.es
+# effects
+# ggplot2
+# multcomp
+# pastecs
+# WRS2
+```
+
+```{r eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE}
+library(car)
+library(compute.es)
+library(effects)
+library(ggplot2)
+library(multcomp)
+library(pastecs)
+library(WRS2)
+library(tidyverse)
+```

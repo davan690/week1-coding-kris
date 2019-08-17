@@ -1,0 +1,2140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Shark Spotter Sites & Sightings]]></name>
+    <description>This map shows the location of Shark Spotters along the False Bay coastline in South Africa, as well as all reported white shark sightings between September 8, 2012, and February 22, 2013. Shark Spotters are positioned at strategic points along the Cape Peninsula. A spotter is placed on the mountain with polarised sunglasses and binoculars. This spotter is in radio contact with another spotter on the beach. If a shark is seen along the beach, the spotter sounds a siren and raises a specific color-coded flag, upon which swimmers are requested to leave the water.</description>
+    <Style id="icon-1217-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1217-fac-wc-men.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1363-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1363-rec-fish.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1363-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1363-rec-fish.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1363">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1363-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1363-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1469-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1469-trans-walking.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Sightings: 9/8/2012 to 2/22/2013</name>
+      <Placemark>
+        <name>8-Sep</name>
+        <description><![CDATA[Beach: Caves, Koegel Bay<br>Time: 1.40pm<br>Long: 18.822123<br>Lat: -34.231324<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Caves, Koegel Bay</value>
+          </Data>
+          <Data name="Time">
+            <value>1.40pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.822123</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.231324</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.822123,-34.231324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>26-Dec</name>
+        <description><![CDATA[Beach: Caves, Kogel Bay<br>Time: 12.22pm<br>Long: 18.798187<br>Lat: -34.220159<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Caves, Kogel Bay</value>
+          </Data>
+          <Data name="Time">
+            <value>12.22pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.798187</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.220159</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.798187,-34.220159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22-Dec</name>
+        <description><![CDATA[Beach: Caves, Kogel Bay<br>Time: 3.25pm<br>Long: 18.802689<br>Lat: -34.205595<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Caves, Kogel Bay</value>
+          </Data>
+          <Data name="Time">
+            <value>3.25pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.802689</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.205595</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.802689,-34.205595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>20-Dec</name>
+        <description><![CDATA[Beach: Caves, Kogel Bay<br>Time: 12.40pm<br>Long: 18.811838<br>Lat: -34.243806<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Caves, Kogel Bay</value>
+          </Data>
+          <Data name="Time">
+            <value>12.40pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.811838</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.243806</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.811838,-34.243806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17-Dec</name>
+        <description><![CDATA[Beach: Caves, Kogel Bay<br>Time: 13.15pm<br>Long: 18.813031<br>Lat: -34.233815<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Caves, Kogel Bay</value>
+          </Data>
+          <Data name="Time">
+            <value>13.15pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.813031</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.233815</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.813031,-34.233815,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19-Nov</name>
+        <description><![CDATA[Beach: Caves, Kogel Bay<br>Time: 4.20pm<br>Long: 18.810774<br>Lat: -34.217291<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Caves, Kogel Bay</value>
+          </Data>
+          <Data name="Time">
+            <value>4.20pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.810774</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.217291</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.810774,-34.217291,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5-Nov</name>
+        <description><![CDATA[Beach: Caves, Kogel Bay<br>Time: 15:15pm<br>Long: 18.814064<br>Lat: -34.225319<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Caves, Kogel Bay</value>
+          </Data>
+          <Data name="Time">
+            <value>15:15pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.814064</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.225319</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.814064,-34.225319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5-Nov</name>
+        <description><![CDATA[Beach: Caves, Kogel Bay<br>Time: 1.36pm<br>Long: 18.80862<br>Lat: -34.230049<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Caves, Kogel Bay</value>
+          </Data>
+          <Data name="Time">
+            <value>1.36pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.80862</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.230049</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.80862,-34.230049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3-Nov</name>
+        <description><![CDATA[Beach: Caves,Kogel Bay<br>Time: 2:29pm<br>Long: 18.818613<br>Lat: -34.238316<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Caves,Kogel Bay</value>
+          </Data>
+          <Data name="Time">
+            <value>2:29pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.818613</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.238316</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.818613,-34.238316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9-Jan</name>
+        <description><![CDATA[Beach: Clovelly<br>Time: 1.29pm<br>Long: 18.44237<br>Lat: -34.134553<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Clovelly</value>
+          </Data>
+          <Data name="Time">
+            <value>1.29pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.44237</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.134553</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.44237,-34.134553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2-Jan</name>
+        <description><![CDATA[Beach: Clovelly<br>Time: 10.40am<br>Long: 18.440732<br>Lat: -34.137128<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Clovelly</value>
+          </Data>
+          <Data name="Time">
+            <value>10.40am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.440732</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.137128</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.440732,-34.137128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>26-Dec</name>
+        <description><![CDATA[Beach: Clovelly<br>Time: 11.05am<br>Long: 18.442617<br>Lat: -34.136341<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Clovelly</value>
+          </Data>
+          <Data name="Time">
+            <value>11.05am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.442617</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.136341</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.442617,-34.136341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>23-Dec</name>
+        <description><![CDATA[Beach: Clovelly<br>Time: 3.45pm<br>Long: 18.440372<br>Lat: -34.135271<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Clovelly</value>
+          </Data>
+          <Data name="Time">
+            <value>3.45pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.440372</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.135271</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.440372,-34.135271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22-Dec</name>
+        <description><![CDATA[Beach: Clovelly<br>Time: 4.25pm<br>Long: 18.443988<br>Lat: -34.135275<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Clovelly</value>
+          </Data>
+          <Data name="Time">
+            <value>4.25pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.443988</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.135275</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.443988,-34.135275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21-Dec</name>
+        <description><![CDATA[Beach: Clovelly<br>Time: 4.59pm<br>Long: 18.441542<br>Lat: -34.136074<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Clovelly</value>
+          </Data>
+          <Data name="Time">
+            <value>4.59pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.441542</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.136074</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.441542,-34.136074,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21-Dec</name>
+        <description><![CDATA[Beach: Clovelly<br>Time: 3.41pm<br>Long: 18.439842<br>Lat: -34.137475<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Clovelly</value>
+          </Data>
+          <Data name="Time">
+            <value>3.41pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.439842</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.137475</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.439842,-34.137475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16-Dec</name>
+        <description><![CDATA[Beach: Clovelly<br>Time: 1.15pm<br>Long: 18.439836<br>Lat: -34.136337<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Clovelly</value>
+          </Data>
+          <Data name="Time">
+            <value>1.15pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.439836</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.136337</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.439836,-34.136337,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13-Oct</name>
+        <description><![CDATA[Beach: Clovelly<br>Time: 10.15am<br>Long: 18.441464<br>Lat: -34.134106<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Clovelly</value>
+          </Data>
+          <Data name="Time">
+            <value>10.15am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.441464</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.134106</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.441464,-34.134106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6-Oct</name>
+        <description><![CDATA[Beach: Clovelly<br>Time: 4.15pm<br>Long: 18.442179<br>Lat: -34.135363<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Clovelly</value>
+          </Data>
+          <Data name="Time">
+            <value>4.15pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.442179</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.135363</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.442179,-34.135363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6-Oct</name>
+        <description><![CDATA[Beach: Clovelly<br>Time: 10.50am<br>Long: 18.443871<br>Lat: -34.13643<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Clovelly</value>
+          </Data>
+          <Data name="Time">
+            <value>10.50am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.443871</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.13643</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.443871,-34.13643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18-Dec</name>
+        <description><![CDATA[Beach: Clovelly<br>Time: 1.45pm<br>Long: 18.441091<br>Lat: -34.136603<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Clovelly</value>
+          </Data>
+          <Data name="Time">
+            <value>1.45pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.441091</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.136603</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.441091,-34.136603,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13-Feb</name>
+        <description><![CDATA[Beach: Fish Hoek<br>Time: 5.23pm<br>Long: 18.4364<br>Lat: -34.142837<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Fish Hoek</value>
+          </Data>
+          <Data name="Time">
+            <value>5.23pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.4364</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.142837</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.4364,-34.142837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21-Dec</name>
+        <description><![CDATA[Beach: Fish Hoek<br>Time: 2.25pm<br>Long: 18.436231<br>Lat: -34.142064<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Fish Hoek</value>
+          </Data>
+          <Data name="Time">
+            <value>2.25pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.436231</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.142064</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.436231,-34.142064,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16-Dec</name>
+        <description><![CDATA[Beach: Fish Hoek<br>Time: 1.55pm<br>Long: 18.436477<br>Lat: -34.142837<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Fish Hoek</value>
+          </Data>
+          <Data name="Time">
+            <value>1.55pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.436477</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.142837</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.436477,-34.142837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10-Nov</name>
+        <description><![CDATA[Beach: Fish Hoek<br>Time: 1.30pm<br>Long: 18.434765<br>Lat: -34.141186<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Fish Hoek</value>
+          </Data>
+          <Data name="Time">
+            <value>1.30pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.434765</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.141186</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.434765,-34.141186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10-Nov</name>
+        <description><![CDATA[Beach: Fish Hoek<br>Time: 1.10pm<br>Long: 18.435394<br>Lat: -34.141853<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Fish Hoek</value>
+          </Data>
+          <Data name="Time">
+            <value>1.10pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.435394</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.141853</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.435394,-34.141853,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4-Nov</name>
+        <description><![CDATA[Beach: Fish Hoek<br>Time: 1.30pm<br>Long: 18.43594<br>Lat: -34.141491<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Fish Hoek</value>
+          </Data>
+          <Data name="Time">
+            <value>1.30pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.43594</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.141491</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.43594,-34.141491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3-Nov</name>
+        <description><![CDATA[Beach: Fish Hoek<br>Time: 2:50pm<br>Long: 18.435154<br>Lat: -34.140957<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Fish Hoek</value>
+          </Data>
+          <Data name="Time">
+            <value>2:50pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.435154</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.140957</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.435154,-34.140957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>30-Sep</name>
+        <description><![CDATA[Beach: Fish Hoek<br>Time: 11.25am<br>Long: 18.435015<br>Lat: -34.14216<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Fish Hoek</value>
+          </Data>
+          <Data name="Time">
+            <value>11.25am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.435015</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.14216</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.435015,-34.14216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11-Sep</name>
+        <description><![CDATA[Beach: Fish Hoek<br>Time: 10am<br>Long: 18.434477<br>Lat: -34.140261<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Fish Hoek</value>
+          </Data>
+          <Data name="Time">
+            <value>10am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.434477</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.140261</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.434477,-34.140261,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10-Sep</name>
+        <description><![CDATA[Beach: Fish Hoek<br>Time: 2.35pm<br>Long: 18.435228<br>Lat: -34.140169<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Fish Hoek</value>
+          </Data>
+          <Data name="Time">
+            <value>2.35pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.435228</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.140169</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.435228,-34.140169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9-Sep</name>
+        <description><![CDATA[Beach: Fish Hoek<br>Time: 9.15am<br>Long: 18.435645<br>Lat: -34.142542<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Fish Hoek</value>
+          </Data>
+          <Data name="Time">
+            <value>9.15am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.435645</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.142542</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.435645,-34.142542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22-Feb</name>
+        <description><![CDATA[Beach: Fish Hoek<br>Time: 1.54pm<br>Long: 18.435695<br>Lat: -34.142502<br>Type: Latest Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Fish Hoek</value>
+          </Data>
+          <Data name="Time">
+            <value>1.54pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.435695</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.142502</value>
+          </Data>
+          <Data name="Type">
+            <value>Latest Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.435695,-34.142502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>28-Dec</name>
+        <description><![CDATA[Beach: Glencairn<br>Time: 12.30pm<br>Long: 18.433378<br>Lat: -34.162386<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Glencairn</value>
+          </Data>
+          <Data name="Time">
+            <value>12.30pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.433378</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.162386</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.433378,-34.162386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21-Dec</name>
+        <description><![CDATA[Beach: Glencairn<br>Time: 2.39pm<br>Long: 18.431194<br>Lat: -34.162453<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Glencairn</value>
+          </Data>
+          <Data name="Time">
+            <value>2.39pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.431194</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.162453</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.431194,-34.162453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16-Dec</name>
+        <description><![CDATA[Beach: Glencairn<br>Time: 11.23am<br>Long: 18.433588<br>Lat: -34.162837<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Glencairn</value>
+          </Data>
+          <Data name="Time">
+            <value>11.23am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.433588</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.162837</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.433588,-34.162837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13-Dec</name>
+        <description><![CDATA[Beach: Glencairn<br>Time: 11.55pm<br>Long: 18.433466<br>Lat: -34.163254<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Glencairn</value>
+          </Data>
+          <Data name="Time">
+            <value>11.55pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.433466</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.163254</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.433466,-34.163254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2-Dec</name>
+        <description><![CDATA[Beach: Glencairn<br>Time: 9.09am<br>Long: 18.433335<br>Lat: -34.162749<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Glencairn</value>
+          </Data>
+          <Data name="Time">
+            <value>9.09am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.433335</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.162749</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.433335,-34.162749,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11-Nov</name>
+        <description><![CDATA[Beach: Glencairn<br>Time: 2.30pm<br>Long: 18.433682<br>Lat: -34.163153<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Glencairn</value>
+          </Data>
+          <Data name="Time">
+            <value>2.30pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.433682</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.163153</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.433682,-34.163153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4-Dec</name>
+        <description><![CDATA[Beach: The Hoek, Noordhoek<br>Time: 1.56pm<br>Long: 18.351227<br>Lat: -34.099372<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>The Hoek, Noordhoek</value>
+          </Data>
+          <Data name="Time">
+            <value>1.56pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.351227</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.099372</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.351227,-34.099372,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21-Dec</name>
+        <description><![CDATA[Beach: Monwabisi<br>Time: 12.13pm<br>Long: 18.749425<br>Lat: -34.087307<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Monwabisi</value>
+          </Data>
+          <Data name="Time">
+            <value>12.13pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.749425</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.087307</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.749425,-34.087307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8-Feb-13</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 4.28pm<br>Long: 18.478507<br>Lat: -34.11006<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>4.28pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.478507</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.11006</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.478507,-34.11006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6-Feb</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 12.20pm<br>Long: 18.476597<br>Lat: -34.111588<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>12.20pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.476597</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.111588</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.476597,-34.111588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9-Jan</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 11.14am<br>Long: 18.483675<br>Lat: -34.107951<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>11.14am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.483675</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.107951</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.483675,-34.107951,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9-Jan</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 10.42am<br>Long: 18.479867<br>Lat: -34.108901<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>10.42am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.479867</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.108901</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.479867,-34.108901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3-Jan</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 12.55pm<br>Long: 18.478507<br>Lat: -34.11056<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>12.55pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.478507</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.11056</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.478507,-34.11056,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2-Jan</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 12.35pm<br>Long: 18.473916<br>Lat: -34.111232<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>12.35pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.473916</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.111232</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.473916,-34.111232,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>28-Dec</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 14.20pm<br>Long: 18.476557<br>Lat: -34.111588<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>14.20pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.476557</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.111588</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.476557,-34.111588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21-Dec</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 12.35pm<br>Long: 18.482364<br>Lat: -34.109075<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>12.35pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.482364</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.109075</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.482364,-34.109075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1-Dec</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 11h33<br>Long: 18.486427<br>Lat: -34.10715<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>11h33</value>
+          </Data>
+          <Data name="Long">
+            <value>18.486427</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.10715</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.486427,-34.10715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18-Nov</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 1.35pm<br>Long: 18.475031<br>Lat: -34.112657<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>1.35pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.475031</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.112657</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.475031,-34.112657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13-Nov</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 1.30pm<br>Long: 18.48143<br>Lat: -34.108036<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>1.30pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.48143</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.108036</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.48143,-34.108036,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9-Nov</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 3.16pm<br>Long: 18.478241<br>Lat: -34.111861<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>3.16pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.478241</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.111861</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.478241,-34.111861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4-Nov</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 2.13pm<br>Long: 18.48037<br>Lat: -34.110074<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>2.13pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.48037</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.110074</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.48037,-34.110074,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3-Nov</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 13.12pm<br>Long: 18.487552<br>Lat: -34.107377<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>13.12pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.487552</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.107377</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.487552,-34.107377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2-Nov</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 12.30pm<br>Long: 18.473233<br>Lat: -34.112879<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>12.30pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.473233</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.112879</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.473233,-34.112879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>28-Oct</name>
+        <description><![CDATA[Beach: muizenberg<br>Time: 12.08pm<br>Long: 18.481327<br>Lat: -34.109952<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>12.08pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.481327</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.109952</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.481327,-34.109952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8-Oct</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 10.30am<br>Long: 18.488553<br>Lat: -34.106047<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>10.30am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.488553</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.106047</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.488553,-34.106047,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8-Oct</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 9.55am<br>Long: 18.489565<br>Lat: -34.106328<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>9.55am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.489565</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.106328</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.489565,-34.106328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22-Sep</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 12.15pm<br>Long: 18.485203<br>Lat: -34.108651<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>12.15pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.485203</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.108651</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.485203,-34.108651,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>20-Sep</name>
+        <description><![CDATA[Beach: Muizenberg<br>Time: 11.10am<br>Long: 18.484786<br>Lat: -34.107419<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>Muizenberg</value>
+          </Data>
+          <Data name="Time">
+            <value>11.10am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.484786</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.107419</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.484786,-34.107419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2-Jan</name>
+        <description><![CDATA[Beach: St James<br>Time: 11.40am<br>Long: 18.459312<br>Lat: -34.122061<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>St James</value>
+          </Data>
+          <Data name="Time">
+            <value>11.40am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.459312</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.122061</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.459312,-34.122061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21-Dec</name>
+        <description><![CDATA[Beach: St James<br>Time: 3.08pm<br>Long: 18.458936<br>Lat: -34.122771<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>St James</value>
+          </Data>
+          <Data name="Time">
+            <value>3.08pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.458936</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.122771</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.458936,-34.122771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21-Dec</name>
+        <description><![CDATA[Beach: St James<br>Time: 10.15am<br>Long: 18.460803<br>Lat: -34.121383<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>St James</value>
+          </Data>
+          <Data name="Time">
+            <value>10.15am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.460803</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.121383</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.460803,-34.121383,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1-Dec</name>
+        <description><![CDATA[Beach: St James<br>Time: 13h50<br>Long: 18.459996<br>Lat: -34.122546<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>St James</value>
+          </Data>
+          <Data name="Time">
+            <value>13h50</value>
+          </Data>
+          <Data name="Long">
+            <value>18.459996</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.122546</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.459996,-34.122546,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1-Dec</name>
+        <description><![CDATA[Beach: St james<br>Time: 11h15<br>Long: 18.462019<br>Lat: -34.120264<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>St james</value>
+          </Data>
+          <Data name="Time">
+            <value>11h15</value>
+          </Data>
+          <Data name="Long">
+            <value>18.462019</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.120264</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.462019,-34.120264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2-Nov</name>
+        <description><![CDATA[Beach: St James<br>Time: 9.40pm<br>Long: 18.46327<br>Lat: -34.120002<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>St James</value>
+          </Data>
+          <Data name="Time">
+            <value>9.40pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.46327</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.120002</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.46327,-34.120002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4-Nov</name>
+        <description><![CDATA[Beach: St James<br>Time: 11.20am<br>Long: 18.460916<br>Lat: -34.120436<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>St James</value>
+          </Data>
+          <Data name="Time">
+            <value>11.20am</value>
+          </Data>
+          <Data name="Long">
+            <value>18.460916</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.120436</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.460916,-34.120436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13-Oct</name>
+        <description><![CDATA[Beach: The Hoek, Noordhoek<br>Time: 3.30pm<br>Long: 18.350966<br>Lat: -34.101797<br>Type: Past Sighting]]></description>
+        <styleUrl>#icon-1363</styleUrl>
+        <ExtendedData>
+          <Data name="Beach">
+            <value>The Hoek, Noordhoek</value>
+          </Data>
+          <Data name="Time">
+            <value>3.30pm</value>
+          </Data>
+          <Data name="Long">
+            <value>18.350966</value>
+          </Data>
+          <Data name="Lat">
+            <value>-34.101797</value>
+          </Data>
+          <Data name="Type">
+            <value>Past Sighting</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.350966,-34.101797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Shark Spotter Beaches</name>
+      <Placemark>
+        <name>Muizenberg</name>
+        <description><![CDATA[Lat: -34.110029<br>Long: 18.465733<br>Type: Permanent Beach<br>Description: Muizenberg is a permanent sharkspotter beach. Shakspotters are on duty from 8am - 6pm, 365 days of the year. <br>URL link: http://twitter.com/SharkSpotters]]></description>
+        <styleUrl>#icon-1217-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Lat">
+            <value>-34.110029</value>
+          </Data>
+          <Data name="Long">
+            <value>18.465733</value>
+          </Data>
+          <Data name="Type">
+            <value>Permanent Beach</value>
+          </Data>
+          <Data name="Description">
+            <value>Muizenberg is a permanent sharkspotter beach. Shakspotters are on duty from 8am - 6pm, 365 days of the year. </value>
+          </Data>
+          <Data name="URL link">
+            <value>http://twitter.com/SharkSpotters</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.465733,-34.110029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fish Hoek Beach</name>
+        <description><![CDATA[Lat: -34.142427<br>Long: 18.433342<br>Type: Permanent Beach<br>Description: Fish Hoek beach is a permanent sharkspotter beach. Shakspotters are on duty from 8am - 6pm (7am to 6:45pm in Summer), 365 days of the year.<br>URL link: http://twitter.com/SharkSpotters]]></description>
+        <styleUrl>#icon-1217-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Lat">
+            <value>-34.142427</value>
+          </Data>
+          <Data name="Long">
+            <value>18.433342</value>
+          </Data>
+          <Data name="Type">
+            <value>Permanent Beach</value>
+          </Data>
+          <Data name="Description">
+            <value>Fish Hoek beach is a permanent sharkspotter beach. Shakspotters are on duty from 8am - 6pm (7am to 6:45pm in Summer), 365 days of the year.</value>
+          </Data>
+          <Data name="URL link">
+            <value>http://twitter.com/SharkSpotters</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.433342,-34.142427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St James </name>
+        <description><![CDATA[Lat: -34.118484<br>Long: 18.4548<br>Type: Permanent Beach<br>Description: St.James/Kalk Bay is a permanent sharkspotter spot. Shakspotters are on duty from 8am - 6pm, 365 days of the year. <br>URL link: http://twitter.com/SharkSpotters]]></description>
+        <styleUrl>#icon-1217-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Lat">
+            <value>-34.118484</value>
+          </Data>
+          <Data name="Long">
+            <value>18.4548</value>
+          </Data>
+          <Data name="Type">
+            <value>Permanent Beach</value>
+          </Data>
+          <Data name="Description">
+            <value>St.James/Kalk Bay is a permanent sharkspotter spot. Shakspotters are on duty from 8am - 6pm, 365 days of the year. </value>
+          </Data>
+          <Data name="URL link">
+            <value>http://twitter.com/SharkSpotters</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.4548,-34.118484,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Hoek, Noordhoek</name>
+        <description><![CDATA[Lat: -34.09489<br>Long: 18.353519<br>Type: Permanent Beach<br>Description: The Hoek (Noordhoek) is a permanent sharkspotter beach. Shakspotters are on duty from 9am - 5pm, 365 days of the year. <br>URL link: http://twitter.com/SharkSpotters]]></description>
+        <styleUrl>#icon-1217-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Lat">
+            <value>-34.09489</value>
+          </Data>
+          <Data name="Long">
+            <value>18.353519</value>
+          </Data>
+          <Data name="Type">
+            <value>Permanent Beach</value>
+          </Data>
+          <Data name="Description">
+            <value>The Hoek (Noordhoek) is a permanent sharkspotter beach. Shakspotters are on duty from 9am - 5pm, 365 days of the year. </value>
+          </Data>
+          <Data name="URL link">
+            <value>http://twitter.com/SharkSpotters</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.353519,-34.09489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clovelly</name>
+        <description><![CDATA[Lat: -34.131345<br>Long: 18.440895<br>Type: Temporary Beach<br>Description: Clovelly Beach is a temporary sharkspotter beach. Sharkspotters are on duty from 10am - 5:30pm, from April to October, during school vacation and on public holidays. <br>URL link: http://twitter.com/SharkSpotters]]></description>
+        <styleUrl>#icon-1469-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Lat">
+            <value>-34.131345</value>
+          </Data>
+          <Data name="Long">
+            <value>18.440895</value>
+          </Data>
+          <Data name="Type">
+            <value>Temporary Beach</value>
+          </Data>
+          <Data name="Description">
+            <value>Clovelly Beach is a temporary sharkspotter beach. Sharkspotters are on duty from 10am - 5:30pm, from April to October, during school vacation and on public holidays. </value>
+          </Data>
+          <Data name="URL link">
+            <value>http://twitter.com/SharkSpotters</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.440895,-34.131345,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Glencairn</name>
+        <description><![CDATA[Lat: -34.162457<br>Long: 18.431196<br>Type: Temporary Beach<br>Description: Glencairn beach is a temporary sharkspotter beach. Sharkspotters are on duty from 8am - 6pm, from April to October, during school vacation and on public holidays. <br>URL link: http://twitter.com/SharkSpotters]]></description>
+        <styleUrl>#icon-1469-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Lat">
+            <value>-34.162457</value>
+          </Data>
+          <Data name="Long">
+            <value>18.431196</value>
+          </Data>
+          <Data name="Type">
+            <value>Temporary Beach</value>
+          </Data>
+          <Data name="Description">
+            <value>Glencairn beach is a temporary sharkspotter beach. Sharkspotters are on duty from 8am - 6pm, from April to October, during school vacation and on public holidays. </value>
+          </Data>
+          <Data name="URL link">
+            <value>http://twitter.com/SharkSpotters</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.431196,-34.162457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Caves, Koeel Bay</name>
+        <description><![CDATA[Lat: -34.226293<br>Long: 18.842218<br>Type: Temporary Beach<br>Description: The Caves is a permanent sharkspotter beach. Shakspotters are on duty from 9am - 5pm, 365 days of the year. <br>URL link: http://twitter.com/SharkSpotters]]></description>
+        <styleUrl>#icon-1469-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Lat">
+            <value>-34.226293</value>
+          </Data>
+          <Data name="Long">
+            <value>18.842218</value>
+          </Data>
+          <Data name="Type">
+            <value>Temporary Beach</value>
+          </Data>
+          <Data name="Description">
+            <value>The Caves is a permanent sharkspotter beach. Shakspotters are on duty from 9am - 5pm, 365 days of the year. </value>
+          </Data>
+          <Data name="URL link">
+            <value>http://twitter.com/SharkSpotters</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.842218,-34.226293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monwabisi</name>
+        <description><![CDATA[Lat: -34.077616<br>Long: 18.750652<br>Type: Temporary Beach<br>Description: Monwabisi beach is a temporary sharkspotter beach. Sharkspotters are on duty from 8am - 6pm, from April to October, during school vacation and on public holidays. <br>URL link: http://twitter.com/SharkSpotters]]></description>
+        <styleUrl>#icon-1469-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Lat">
+            <value>-34.077616</value>
+          </Data>
+          <Data name="Long">
+            <value>18.750652</value>
+          </Data>
+          <Data name="Type">
+            <value>Temporary Beach</value>
+          </Data>
+          <Data name="Description">
+            <value>Monwabisi beach is a temporary sharkspotter beach. Sharkspotters are on duty from 8am - 6pm, from April to October, during school vacation and on public holidays. </value>
+          </Data>
+          <Data name="URL link">
+            <value>http://twitter.com/SharkSpotters</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.750652,-34.077616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

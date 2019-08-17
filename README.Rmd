@@ -1,0 +1,74 @@
+---
+title: "The effect of ticks on running speed of lizards"
+subtitle: "An implementation in R Markdown"
+author: "Kris Wilde and Anthony Davidson"
+date: "`r Sys.Date()`"
+output: 
+  rmarkdown::html_document: 
+    keep_md: TRUE
+  rmarkdown::md_document:
+    variant: markdown_github
+  tufte::tufte_html: default
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+bibliography: skeleton.bib
+link-citations: yes
+---
+
+```{r setup-knity, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, fig.width = 7,
+	fig.height = 3.5,
+	comment = "#>")
+```
+
+```{r message=FALSE, warning=FALSE}
+# install.packages("car")
+# car
+# compute.es
+# effects
+# ggplot2
+# multcomp
+# pastecs
+# WRS2
+```
+
+```{r eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE, include=TRUE}
+library(car)
+library(compute.es)
+library(effects)
+library(ggplot2)
+library(multcomp)
+library(pastecs)
+library(WRS2)
+library(tidyverse)
+```
+
+## Import data
+
+Import tick data
+
+```{r}
+tick <- read.csv("./data/tickdata.csv",header=T)
+glimpse(tick)
+```
+
+### Raw data table
+
+```{r}
+kableExtra::kable(head(tick))
+```
+
+### Plot data
+
+```{r}
+plot(x = tick$HLL,
+     y = tick$Max_2m,
+     col = tick$Yes1N0,
+     pch = 5,
+     xlab = "HLL"
+     ,ylab = "m/s")
+```
