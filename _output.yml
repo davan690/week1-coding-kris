@@ -6,8 +6,11 @@ bookdown::gitbook:
         <li><a href="./">A simple template for projects</a></li>
       after: |
         <li><a href="https://github.com/davan690/krisProjects" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/davan690/week1-coding-kris/docs/%s
+    edit: https://github.com/davan690/week1-coding-kris/edit/master/%s
     download: ["pdf", "epub", "mobi", "docx"]
+bookdown::html_book: 
+  includes:
+    in_header: style.css
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex

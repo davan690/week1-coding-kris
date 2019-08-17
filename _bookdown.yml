@@ -3,7 +3,7 @@ language:
   ui:
     chapter_name: "Chapter "
 chapter_name: "Chapter "
-repo: https://github.com/davan690/beech-forest-publication
+repo: https://github.com/davan690/week1-coding-kris
 output_dir: docs
 rmd_files: ["index.Rmd", "01-intro.Rmd","02-literature.Rmd", "03-method.Rmd", "04-application.Rmd", "05-summary.Rmd", "06-references.Rmd"]
 clean: [packages.bib, bookdown.bbl]

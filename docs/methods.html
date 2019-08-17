@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 4 Methods | The effect of ticks on running speed of lizards</title>
+  <title>Chapter 5 Methods | The effect of ticks on running speed of lizards</title>
   <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
   <meta name="generator" content="bookdown 0.12 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 4 Methods | The effect of ticks on running speed of lizards" />
+  <meta property="og:title" content="Chapter 5 Methods | The effect of ticks on running speed of lizards" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 4 Methods | The effect of ticks on running speed of lizards" />
+  <meta name="twitter:title" content="Chapter 5 Methods | The effect of ticks on running speed of lizards" />
   
   <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
   
@@ -47,6 +47,14 @@
 
 
 
+<script src="libs/htmlwidgets-1.3/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.7/datatables.js"></script>
+<link href="libs/dt-core-1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.16/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.16/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
 
 
 <style type="text/css">
@@ -128,20 +136,44 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">A simple template for projects</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Before session</a></li>
-<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a><ul>
-<li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#import-data"><i class="fa fa-check"></i><b>2.1</b> Import data</a><ul>
-<li class="chapter" data-level="2.1.1" data-path="intro.html"><a href="intro.html#raw-data-table"><i class="fa fa-check"></i><b>2.1.1</b> Raw data table</a></li>
-<li class="chapter" data-level="2.1.2" data-path="intro.html"><a href="intro.html#plot-raw-data"><i class="fa fa-check"></i><b>2.1.2</b> Plot raw data</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Components</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#markdown-syntax"><i class="fa fa-check"></i><b>1.1</b> Markdown syntax</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#inline-formatting"><i class="fa fa-check"></i><b>1.1.1</b> Inline formatting</a></li>
+<li class="chapter" data-level="1.1.2" data-path="index.html"><a href="index.html#block-level-elements"><i class="fa fa-check"></i><b>1.1.2</b> Block-level elements</a></li>
+<li class="chapter" data-level="1.1.3" data-path="index.html"><a href="index.html#math-expressions"><i class="fa fa-check"></i><b>1.1.3</b> Math expressions</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#markdown-extensions-by-bookdown"><i class="fa fa-check"></i><b>1.2</b> Markdown extensions by bookdown</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#equations"><i class="fa fa-check"></i><b>1.2.1</b> Number and reference equations</a></li>
+<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#theorems"><i class="fa fa-check"></i><b>1.2.2</b> Theorems and proofs</a></li>
+<li class="chapter" data-level="1.2.3" data-path="index.html"><a href="index.html#special-headers"><i class="fa fa-check"></i><b>1.2.3</b> Special headers</a></li>
+<li class="chapter" data-level="1.2.4" data-path="index.html"><a href="index.html#text-references"><i class="fa fa-check"></i><b>1.2.4</b> Text references</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#r-code"><i class="fa fa-check"></i><b>1.3</b> R code</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#figures"><i class="fa fa-check"></i><b>1.4</b> Figures</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#tables"><i class="fa fa-check"></i><b>1.5</b> Tables</a></li>
+<li class="chapter" data-level="1.6" data-path="index.html"><a href="index.html#cross-references"><i class="fa fa-check"></i><b>1.6</b> Cross-references</a></li>
+<li class="chapter" data-level="1.7" data-path="index.html"><a href="index.html#custom-blocks"><i class="fa fa-check"></i><b>1.7</b> Custom blocks</a></li>
+<li class="chapter" data-level="1.8" data-path="index.html"><a href="index.html#citations"><i class="fa fa-check"></i><b>1.8</b> Citations</a></li>
+<li class="chapter" data-level="1.9" data-path="index.html"><a href="index.html#latex-index"><i class="fa fa-check"></i><b>1.9</b> Index</a></li>
+<li class="chapter" data-level="1.10" data-path="index.html"><a href="index.html#html-widgets"><i class="fa fa-check"></i><b>1.10</b> HTML widgets</a></li>
+<li class="chapter" data-level="1.11" data-path="index.html"><a href="index.html#web-pages-and-shiny-apps"><i class="fa fa-check"></i><b>1.11</b> Web pages and Shiny apps</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="before-session.html"><a href="before-session.html"><i class="fa fa-check"></i><b>2</b> Before session</a><ul>
+<li class="chapter" data-level="2.0.1" data-path="before-session.html"><a href="before-session.html#info-needed"><i class="fa fa-check"></i><b>2.0.1</b> Info needed</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>3</b> Introduction</a><ul>
+<li class="chapter" data-level="3.1" data-path="intro.html"><a href="intro.html#import-data"><i class="fa fa-check"></i><b>3.1</b> Import data</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="intro.html"><a href="intro.html#raw-data-table"><i class="fa fa-check"></i><b>3.1.1</b> Raw data table</a></li>
+<li class="chapter" data-level="3.1.2" data-path="intro.html"><a href="intro.html#plot-raw-data"><i class="fa fa-check"></i><b>3.1.2</b> Plot raw data</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>3</b> Literature</a></li>
-<li class="chapter" data-level="4" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>4</b> Methods</a></li>
-<li class="chapter" data-level="5" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>5</b> Applications</a><ul>
-<li class="chapter" data-level="5.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>5.1</b> Example one</a></li>
-<li class="chapter" data-level="5.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>5.2</b> Example two</a></li>
+<li class="chapter" data-level="4" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>4</b> Literature</a></li>
+<li class="chapter" data-level="5" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>5</b> Methods</a></li>
+<li class="chapter" data-level="6" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>6</b> Applications</a><ul>
+<li class="chapter" data-level="6.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>6.1</b> Example one</a></li>
+<li class="chapter" data-level="6.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>6.2</b> Example two</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>6</b> Final Words</a></li>
+<li class="chapter" data-level="7" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>7</b> Final Words</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/davan690/krisProjects" target="blank">Published with bookdown</a></li>
@@ -164,7 +196,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
             <section class="normal" id="section-">
 <div id="methods" class="section level1">
-<h1><span class="header-section-number">Chapter 4</span> Methods</h1>
+<h1><span class="header-section-number">Chapter 5</span> Methods</h1>
 <p>We describe our methods in this chapter.</p>
 
 </div>
@@ -204,7 +236,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/davan690/week1-coding-kris/docs/03-method.Rmd",
+"link": "https://github.com/davan690/week1-coding-kris/edit/master/03-method.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -219,6 +251,19 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
