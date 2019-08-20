@@ -1,26 +1,10 @@
----
-title: "The effect of ticks on running speed of lizards"
-subtitle: "An implementation in R Markdown"
-author: "Kris Wilde and Anthony Davidson"
-date: "2019-08-17"
-output: 
-  rmarkdown::html_document: 
-    keep_md: TRUE
-  rmarkdown::md_document:
-    variant: markdown_github
-  tufte::tufte_html: default
-  tufte::tufte_handout:
-    citation_package: natbib
-    latex_engine: xelatex
-  tufte::tufte_book:
-    citation_package: natbib
-    latex_engine: xelatex
-bibliography: skeleton.bib
-link-citations: yes
----
+This repository contains the resources needed for the statistics coding sessions at the University of Canberra. The first dataset looks at the effect of ticks on running speed of lizards. 
 
+## Contributors
 
+Kris Wilde and Anthony Davidson
 
+## Packages needed
 
 ```r
 # install.packages("car")
@@ -33,12 +17,9 @@ link-citations: yes
 # WRS2
 ```
 
-
-
 ## Import data
 
 Import tick data
-
 
 ```r
 tick <- read.csv("./data/tickdata.csv",header=T)
@@ -181,7 +162,6 @@ kableExtra::kable(head(tick))
 
 ### Plot data
 
-
 ```r
 plot(x = tick$HLL,
      y = tick$Max_2m,
@@ -191,4 +171,4 @@ plot(x = tick$HLL,
      ,ylab = "m/s")
 ```
 
-![](README_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![First basic figure for the relationhip we are interested in.]
